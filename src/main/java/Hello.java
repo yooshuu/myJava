@@ -14,5 +14,7 @@ public class Hello {
         System.out.println("I like chicken");
         System.out.println("It's a beautiful day");
 
+        System.out.println("Edit Java Code!!");
+
     }
 }
