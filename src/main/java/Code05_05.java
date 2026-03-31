@@ -11,5 +11,7 @@ public class Code05_05 {
         else {
             System.out.println("홀수입니다.");
         }
+
+        s.close();
     }
 }
