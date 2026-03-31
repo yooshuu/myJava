@@ -1,15 +1,13 @@
 import java.util.Scanner;
 
-public class Paper3 {
+public class Exam03 {
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
 
         String a = s.nextLine();
         String b = s.nextLine();
 
-        String result = (a + b).toLowerCase().replaceAll(" ", "");
-
-        System.out.println(result);
+        System.out.println((a + b).toLowerCase().replaceAll(" ", ""));
 
         s.close();
     }
