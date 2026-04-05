@@ -11,5 +11,7 @@ public class Prac260405_02 {
         } else {
             System.out.printf("%d 는 홀수입니다.", num);
         }
+
+        s.close();
     }
 }
