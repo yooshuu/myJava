@@ -11,13 +11,11 @@ public class Code05_09 {
         switch (select) {
             case 1 :
                 System.out.println("1을 선택했습니다.");
-                break;
             case 2 :
                 System.out.println("2를 선택했습니다.");
                 break;
             case 3:
                 System.out.println("3을 선택했습니다.");
-                break;
             default :
                 System.out.println("이상한 것을 선택했습니다.");
         }
