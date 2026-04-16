@@ -4,8 +4,14 @@ public class TermPaper05 {
 
         int max = nums[0];
 
-        for(int i=1; i<nums.length; i++) {
+        /* for(int i=1; i<nums.length; i++) {
             max = Math.max(max, nums[i]);
+        } */
+
+        for(int i=1; i<nums.length; i++){
+            if (nums[i]>max) {
+                max = nums[i];
+            }
         }
 
         System.out.printf(max + "입니다.");
