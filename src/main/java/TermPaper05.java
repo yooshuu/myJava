@@ -14,6 +14,6 @@ public class TermPaper05 {
             }
         }
 
-        System.out.printf(max + "입니다.");
+        System.out.println(max + "입니다.");
     }
 }
