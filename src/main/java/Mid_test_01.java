@@ -1,7 +1,7 @@
 public class Mid_test_01 {
     public static void main(String[] args) {
 
-        // i는 현재 출력할 행 번호, 각 행마다 공백과 별의 개수가 달라짐.
+        // i는 출력할 행 번호
         for(int i=1; i<=4; i++) {
 
             // j는 현재 행에서 출력해야 할 공백의 개수
