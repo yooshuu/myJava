@@ -1,0 +1,10 @@
+package org.example;
+
+public class Code05_01 {
+    public static void main(String[] args) {
+        int num = 101;
+
+        if (num < 100)
+            System.out.println("100보다 작습니다.");
+    }
+}
