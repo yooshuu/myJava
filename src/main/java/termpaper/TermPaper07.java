@@ -5,6 +5,7 @@ import java.util.List;
 
 public class TermPaper07 {
     public static void main(String[] args) {
+
         List<Integer> a = new ArrayList<>();
 
         for (int i=1; i<=5; i++) {
